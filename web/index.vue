@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import { hello } from "../apis/hello";
+import { hello } from "../apis/hello.js";
 export default {
   data(){
     return { message: "loading..." }
