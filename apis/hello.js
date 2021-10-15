@@ -1,3 +1,3 @@
-const { platform } = require('os')
+import { platform } from 'os'
 
-module.exports.hello = async name => `hello ${name}! from ${platform()}`
+export const hello = async name => `hello ${name}! from ${platform()}`
